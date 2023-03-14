@@ -1,7 +1,7 @@
-#!/bin/bash
+#!/usr/bin/env python3
 
 import sys
 
-var = sys.argv[1]
+var = os.environ.get("PARAMS")
 
 print(var)
