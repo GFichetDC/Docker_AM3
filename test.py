@@ -2,6 +2,6 @@
 
 import sys
 
-var = os.environ.get("PARAMS")
+var = os.getenv("PARAMS")
 
 print(var)
