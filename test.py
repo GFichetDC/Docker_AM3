@@ -1,1 +1,7 @@
-print('hello world!')
+#!/bin/bash
+
+import sys
+
+var = sys.argv[2]
+
+print(var)
