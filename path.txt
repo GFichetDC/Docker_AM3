@@ -1,0 +1,9 @@
+PATH_TO_AM3 = .
+
+PATH_TO_PYTHONLIB = /usr/lib/
+
+PYTHONROOT = /usr/include/python3.7
+
+PYBINDROOT = /home/gaetan/.local/lib/python3.10/site-packages/pybind11/include/pybind11
+
+OMPOOT = /usr/lib/llvm-14/include
