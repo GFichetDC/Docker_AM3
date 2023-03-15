@@ -1,13 +1,7 @@
-CXX = g++
-CXXFLAGS = -Wall -Wextra -pedantic -std=c++17
+PATH_TO_AM3 = .
 
-all: main
+PATH_TO_PYTHONLIB = /usr/lib/
 
-main: main.o
-	$(CXX) $(CXXFLAGS) $^ -o $@
+PYTHONROOT = /usr/include/python3.7
 
-main.o: main.cpp
-	$(CXX) $(CXXFLAGS) -c $< -o $@
-
-clean:
-	rm -f main.o main
+PYBINDROOT = /home/gaetan/.local/lib/python3.10/site-packages/pybind11/include/pybind11
